@@ -10,7 +10,12 @@ Bugs Player for Mac Chrome Extension
 ##URL Scheme
 맥용 벅스 플레이어는 다음과 같은 구조로 곡 추가 이벤트를 받고 있습니다.
 
-bugsmenubar://playSongWithTrackID@"콤마(,)로 구분된 TrackId 리스트"@@forcePlay@"재생/추가 (true:재생,false:추가)"
+bugsmenubar://playSongWithTrackID@`콤마(,)로 구분된 TrackId 리스트`@@forcePlay@`재생/추가 (true:재생,false:추가)`
+
+###URL Scheme 예제
+
+[bugsmenubar://playSongWithTrackID@2965241@@forcePlay@true](bugsmenubar://playSongWithTrackID@2965241@@forcePlay@true)
+[bugsmenubar://playSongWithTrackID@2965241,1851888@@forcePlay@false](bugsmenubar://playSongWithTrackID@2965241,1851888@@forcePlay@false)
 
 ##저작권
 MIT License.
